@@ -51,6 +51,10 @@ a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 
 
 /* Navbar
@@ -84,3 +88,18 @@ a {
 
 /* Header
 ====================================================================== */
+.header {
+  margin: 3rem 1rem;
+  padding: 1rem;
+}
+
+.header__image {
+  display: block;
+  width: 70%;
+  margin: 0 auto 3rem;
+}
+
+.header__description {
+  text-align: center;
+  font-size: 1.6rem;
+}
