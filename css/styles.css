@@ -57,6 +57,19 @@ img {
 
 
 
+/* Utilities
+====================================================================== */
+.hover-effect {
+  transition: all .5s;
+}
+
+.hover-effect:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
 /* Navbar
 ====================================================================== */
 .navbar {
@@ -96,6 +109,8 @@ img {
 .header__image {
   display: block;
   width: 70%;
+  max-width: 380px;
+  min-width: 180px;
   margin: 0 auto 3rem;
 }
 
