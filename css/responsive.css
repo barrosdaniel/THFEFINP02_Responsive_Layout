@@ -1,0 +1,43 @@
+/* Medium size layout styles. Breakpoint 768px + */
+@media (min-width: 768px) {
+
+  /* Navbar
+  ====================================================================== */
+  .navbar {
+    padding-bottom: 2rem;
+  }
+
+  .navbar__list {
+    text-align: center;
+  }
+
+  .navbar__link {
+    display: inline;
+    background-color: inherit;
+    color: var(--gray-color-extra-light);
+    transition: all 0.3s;
+  }
+
+  .navbar__link:hover {
+    border-bottom: 2px solid var(--gray-color-extra-light);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
