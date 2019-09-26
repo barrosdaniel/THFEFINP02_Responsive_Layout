@@ -60,6 +60,11 @@ h3 {
   font-weight: 400;
 }
 
+p {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
 ul {
   list-style: none;
 }
@@ -84,6 +89,10 @@ img {
 .hover-effect:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bold {
+  font-weight: 700;
 }
 
 
@@ -132,11 +141,6 @@ img {
   max-width: 380px;
   min-width: 180px;
   margin: 0 auto 1rem;
-}
-
-.header__description {
-  text-align: center;
-  font-size: 1.6rem;
 }
 
 
@@ -196,4 +200,12 @@ section h2 {
 .skills__card-title {
   display: block;
   margin-top: 0.5rem;
+}
+
+
+
+/* Section - Contact
+====================================================================== */
+.contact__text {
+  margin-bottom: 2rem;
 }
