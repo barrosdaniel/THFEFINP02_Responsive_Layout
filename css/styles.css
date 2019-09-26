@@ -111,6 +111,7 @@ img {
   text-align: center;
   padding: 1rem;
   font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 1px;
 }
 
 .navbar__link {
@@ -206,6 +207,36 @@ section h2 {
 
 /* Section - Contact
 ====================================================================== */
+.contact {
+  background-color: var(--white-color);
+}
+
 .contact__text {
   margin-bottom: 2rem;
+}
+
+
+
+/* Footer
+====================================================================== */
+.footer {
+  background-color: var(--gray-color-extra-dark);
+  color: var(--gray-color-extra-light);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.footer__nav-link {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
