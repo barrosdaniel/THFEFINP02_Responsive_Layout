@@ -22,6 +22,30 @@
     border-bottom: 2px solid var(--gray-color-extra-light);
   }
 
+  /* Header
+  ====================================================================== */
+  .header {
+    padding: 4rem;
+    background-color: var(--gray-color-extra-light);
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__image {
+    order: 2;
+    width: 40%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+
+  .header__paragraph {
+    font-size: 1.8rem;
+  }
+
+
 
 
 
