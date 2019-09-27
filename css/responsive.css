@@ -45,6 +45,23 @@
     font-size: 1.8rem;
   }
 
+  /* Sections 
+  ====================================================================== */
+  section {
+    padding: 4rem;
+  }
+
+  /* Section - Portfolio
+  ====================================================================== */
+  .portfolio .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__card {
+    margin: 2rem 0.75rem;
+  }
+
 
 
 
