@@ -9,7 +9,7 @@
   --gray-color-medium: #777;
   --gray-color-dark: #444;
   --gray-color-extra-dark: #111;
-  --gray-color-extra-dark-90opacity: rgba(17, 17, 17, 0.9);
+  --gray-color-extra-dark-90opacity: rgba(17, 17, 17, 0.95);
 }
 
 
@@ -112,7 +112,7 @@ img {
 
 .navbar__title {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   padding: 1rem;
   font-family: 'Shadows Into Light', cursive;

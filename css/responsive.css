@@ -97,6 +97,40 @@
 
 
 
+  /* Large size layout styles. Breakpoint 1024px + */
+  @media (min-width: 1024px) {
+
+    /* Navbar
+    ====================================================================== */
+    .navbar {
+      padding: 0 1rem;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar__title {
+      width: 50%;
+      text-align: left;
+    }
+
+    /* Header
+    ====================================================================== */
+    .header {
+      margin-top: 80px;
+    }
+
+  }
+
+
+
 
 
 
