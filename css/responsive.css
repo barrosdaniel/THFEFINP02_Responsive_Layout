@@ -127,6 +127,22 @@
       margin-top: 80px;
     }
 
+    /* Section - Portfolio
+    ====================================================================== */
+    .portfolio .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .portfolio__card-title {
+      font-size: 1.9rem;
+    }
+
+    .portfolio__card-text {
+      font-size: 1.4rem;
+    }
+
+
+
   }
 
 
