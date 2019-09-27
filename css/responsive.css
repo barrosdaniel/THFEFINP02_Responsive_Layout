@@ -81,6 +81,20 @@
     font-size: 2rem;
   }
 
+  /* Footer
+  ====================================================================== */
+  .footer__nav--small {
+    display: none;
+  }
+
+  .footer__nav--medium {
+    display: block;
+  }
+
+  .footer__nav-link:not(:last-child) {
+    margin-right: 2rem;
+  }
+
 
 
 
