@@ -112,7 +112,6 @@ img {
 
 .navbar__title {
   display: block;
-  /* width: 100%; */
   text-align: center;
   padding: 1rem;
   font-family: 'Shadows Into Light', cursive;
@@ -251,4 +250,150 @@ section h2 {
 
 .footer__nav--medium {
   display: none;
+}
+
+
+
+/* Medium size layout styles. Breakpoint 768px + */
+@media (min-width: 768px) {
+
+  /* Navbar
+  ====================================================================== */
+  .navbar {
+    padding-bottom: 2rem;
+  }
+
+  .navbar__list {
+    text-align: center;
+  }
+
+  .navbar__link {
+    display: inline;
+    background-color: inherit;
+    color: var(--gray-color-extra-light);
+    transition: all 0.3s;
+  }
+
+  .navbar__link:hover {
+    border-bottom: 2px solid var(--gray-color-extra-light);
+  }
+
+  /* Header
+  ====================================================================== */
+  .header {
+    padding: 4rem;
+    background-color: var(--gray-color-extra-light);
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__image {
+    order: 2;
+    width: 40%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+
+  .header__paragraph {
+    font-size: 1.8rem;
+  }
+
+  /* Sections 
+  ====================================================================== */
+  section {
+    padding: 4rem;
+  }
+
+  /* Section - Portfolio
+  ====================================================================== */
+  .portfolio .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__card {
+    margin: 2rem 0.75rem;
+  }
+
+  /* Section - Skills
+  ====================================================================== */
+  .skills .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .skills__card {
+    margin: 2rem 0.75rem;
+  }
+
+  /* Section - Contact
+  ====================================================================== */
+  .contact__text {
+    margin: 0 8rem 2rem;
+    font-size: 2rem;
+  }
+
+  /* Footer
+  ====================================================================== */
+  .footer__nav--small {
+    display: none;
+  }
+
+  .footer__nav--medium {
+    display: block;
+  }
+
+  .footer__nav-link:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+
+
+/* Large size layout styles. Breakpoint 1024px + */
+@media (min-width: 1024px) {
+
+  /* Navbar
+    ====================================================================== */
+  .navbar {
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__title {
+    width: 50%;
+    text-align: left;
+  }
+
+  /* Header
+    ====================================================================== */
+  .header {
+    margin-top: 80px;
+    padding-top: 6rem;
+  }
+
+  /* Sections 
+  ====================================================================== */
+  section {
+    padding-top: 8rem;
+  }
+
+  /* Section - Portfolio
+    ====================================================================== */
+  .portfolio .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
